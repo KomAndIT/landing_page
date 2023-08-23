@@ -1,0 +1,140 @@
+body{
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+    
+    
+    
+}
+button{
+    background-color: #3882f6;
+    color: white;
+    border-radius: 5px;
+    border-style: hidden;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937
+    
+}
+
+ul{
+    list-style-type: none;
+    color: black;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+ 
+    
+}
+
+#information{
+    text-align: center;
+    margin: 20px;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    
+    gap: 15px;
+}
+.card{
+    text-align: center;
+}
+
+.awesome{
+    display: flex;
+    gap: 20px;
+    background-color: #1f2937
+   
+}
+
+#logo{
+    font-weight: 24px;
+    color: #f9faf8;
+}
+
+
+#hero_main_text{
+    font-size: 48px;
+    font-weight:bolder;
+    color: #f9faf8;
+    
+}
+
+#hero_secondary_text, #header_link_text{
+    color: #e5e7eb;
+    font-weight: 18px;
+    list-style: none;
+    text-decoration: none;
+}
+
+a:visited{
+    color: #e5e7eb;;
+}
+
+.welcome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+   
+}
+
+.quote{
+    text-align:center;
+    padding: 10% 15%;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    
+}
+
+
+.call_to_action_cont{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15%;
+   
+}
+
+.container{
+    display: flex;
+    background-color: #3882f6;
+    color: white;
+    justify-content: space-between;
+    width: 800px;
+    border-radius: 5px;
+    
+}
+#call_to_action_title{
+    font-weight: bold;
+}
+
+
+
+img{
+    width: 450px;
+    height: 50;
+}
+
+.footer{
+    text-align: center;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-weight: 18px;
+}
+
+
